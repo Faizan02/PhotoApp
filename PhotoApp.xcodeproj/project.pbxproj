@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4269C6782694449500A3A6BB /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269C6772694449500A3A6BB /* SignupFormModelValidator.swift */; };
+		4269C67C2694620A00A3A6BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269C67B2694620A00A3A6BB /* Constants.swift */; };
 		42FB270826933C2500E6519A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB270726933C2500E6519A /* AppDelegate.swift */; };
 		42FB270A26933C2500E6519A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB270926933C2500E6519A /* SceneDelegate.swift */; };
-		42FB270C26933C2500E6519A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB270B26933C2500E6519A /* ViewController.swift */; };
 		42FB270F26933C2500E6519A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FB270D26933C2500E6519A /* Main.storyboard */; };
 		42FB271126933C2600E6519A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FB271026933C2600E6519A /* Assets.xcassets */; };
 		42FB271426933C2600E6519A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FB271226933C2600E6519A /* LaunchScreen.storyboard */; };
-		42FB272A26933C9700E6519A /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB272926933C9700E6519A /* SignupFormModelValidator.swift */; };
+		42FB272A26933C9700E6519A /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB272926933C9700E6519A /* SignupFormModelValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4269C6772694449500A3A6BB /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
+		4269C67B2694620A00A3A6BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		42FB270426933C2500E6519A /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FB270726933C2500E6519A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FB270926933C2500E6519A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42FB270B26933C2500E6519A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42FB270E26933C2500E6519A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42FB271026933C2600E6519A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42FB271326933C2600E6519A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FB271526933C2600E6519A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FB271F26933C3300E6519A /* PhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FB272326933C3300E6519A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42FB272926933C9700E6519A /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
+		42FB272926933C9700E6519A /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4269C679269461CB00A3A6BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4269C6772694449500A3A6BB /* SignupFormModelValidator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4269C67A269461F000A3A6BB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4269C67B2694620A00A3A6BB /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		42FB26FB26933C2500E6519A = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +97,10 @@
 		42FB270626933C2500E6519A /* PhotoApp */ = {
 			isa = PBXGroup;
 			children = (
+				4269C67A269461F000A3A6BB /* Constants */,
+				4269C679269461CB00A3A6BB /* Views */,
 				42FB270726933C2500E6519A /* AppDelegate.swift */,
 				42FB270926933C2500E6519A /* SceneDelegate.swift */,
-				42FB270B26933C2500E6519A /* ViewController.swift */,
 				42FB270D26933C2500E6519A /* Main.storyboard */,
 				42FB271026933C2600E6519A /* Assets.xcassets */,
 				42FB271226933C2600E6519A /* LaunchScreen.storyboard */,
@@ -93,7 +112,7 @@
 		42FB272026933C3300E6519A /* PhotoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				42FB272926933C9700E6519A /* SignupFormModelValidator.swift */,
+				42FB272926933C9700E6519A /* SignupFormModelValidatorTests.swift */,
 				42FB272326933C3300E6519A /* Info.plist */,
 			);
 			path = PhotoAppTests;
@@ -200,9 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FB270C26933C2500E6519A /* ViewController.swift in Sources */,
 				42FB270826933C2500E6519A /* AppDelegate.swift in Sources */,
 				42FB270A26933C2500E6519A /* SceneDelegate.swift in Sources */,
+				4269C6782694449500A3A6BB /* SignupFormModelValidator.swift in Sources */,
+				4269C67C2694620A00A3A6BB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FB272A26933C9700E6519A /* SignupFormModelValidator.swift in Sources */,
+				42FB272A26933C9700E6519A /* SignupFormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
