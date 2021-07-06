@@ -63,7 +63,6 @@
 		4269C679269461CB00A3A6BB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4269C6772694449500A3A6BB /* SignupFormModelValidator.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -74,6 +73,21 @@
 				4269C67B2694620A00A3A6BB /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		4269C67D26946D2500A3A6BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4269C67F26946D3500A3A6BB /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				4269C6772694449500A3A6BB /* SignupFormModelValidator.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 		42FB26FB26933C2500E6519A = {
@@ -98,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				4269C67A269461F000A3A6BB /* Constants */,
+				4269C67D26946D2500A3A6BB /* Model */,
 				4269C679269461CB00A3A6BB /* Views */,
+				4269C67F26946D3500A3A6BB /* Provider */,
 				42FB270726933C2500E6519A /* AppDelegate.swift */,
 				42FB270926933C2500E6519A /* SceneDelegate.swift */,
 				42FB270D26933C2500E6519A /* Main.storyboard */,
