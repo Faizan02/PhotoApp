@@ -9,7 +9,7 @@ import Foundation
 
 class SignupFormModelValidator{
     
-    /// Validates the firstname of the user
+    /// Validates the firstname of the user with correct length
     /// - Parameter firstName: firstName to be validated
     /// - Returns: returns boolen value true if firstname is valid else returns false
     func isFirstNameValid(firstName: String) -> Bool{
@@ -22,7 +22,7 @@ class SignupFormModelValidator{
         return true
     }
     
-    /// Validates the lastName of the user
+    /// Validates the lastName of the user with correct length
     /// - Parameter lastName: lastName to be validated
     /// - Returns: returns boolen value true if lastName is valid else returns false
     func isLastNameValid(lastName: String) -> Bool{
@@ -44,7 +44,7 @@ class SignupFormModelValidator{
         return emailPred.evaluate(with: email)
     }
     
-    /// Validates Password provided by the user
+    /// Validates Password provided by the user with correct length
     /// - Parameter password: password to be validated
     /// - Returns: returns boolen value true if password is valid else returns false
     func isPasswordValid(password: String) -> Bool{
